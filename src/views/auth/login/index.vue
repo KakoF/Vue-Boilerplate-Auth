@@ -68,8 +68,8 @@ export default {
   name: "Login",
   data() {
     return {
-      email: "kakoferrare87@gmail.com",
-      password: "kako123456",
+      email: "",
+      password: "",
       img: img
     };
   },
