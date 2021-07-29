@@ -89,9 +89,9 @@ export default {
           this.$refs.loadingButton.stopLoading();
           this.$snack.success({
             text:
-              "Successfully registered to " +
+              "Registro criado para " +
               this.$store.getters.appName +
-              ". Please log in to continue."
+              ". Por favor efetue o login para continuar."
           });
           this.$router.push("/");
         })
